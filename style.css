@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poiret+One&family=Six+Caps&family=Tajawal:wght@200;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Monofett&family=Monoton&family=Pompiere&family=Saira+Stencil+One&family=Ultra&family=Vast+Shadow&display=swap');
+
+/* font-family: 'Antonio', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Six Caps', sans-serif;
+font-family: 'Roboto', sans-serif; 
+font-family: 'Pacifico', cursive;
+font-family: 'Bungee Shade', cursive;
+font-family: 'Monofett', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Pompiere', cursive;
+font-family: 'Saira Stencil One', cursive;
+font-family: 'Ultra', serif;
+font-family: 'Vast Shadow', cursive;*/
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    padding: 10px;
+    background-color: #e8dcca;
+    border: 5px solid black;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #94b1b9;
+    border-radius: 10px;
+}
+
+.title-header {
+    color: black;
+    font-weight: 400;
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: 'Bungee Shade', cursive;
+}
+
+a {
+    border: 2px solid #1d1010;
+    display: block;
+    text-align: center;
+    margin: 5px;
+    width: 60%;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 50px;
+    font-size: 20px;
+    transition: transform 0.1s ease, box-shadow;
+    color: black;
+    box-shadow: 0 5px 0;
+    margin-bottom: 10px;
+}
+
+a:active {
+    box-shadow: 0 0 0 #000000;
+    transform: translateY(5px);
+    background-color: #e8dcca;
+}
+
+.navbar-header {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+aside {
+    color: #000000;
+}
+
+.creative-text {
+    margin-top: 2rem;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.developer-designer {
+    width: 100%;
+    font-size: 6rem;
+    text-align: center;
+    font-family: 'Six Caps', sans-serif;
+    margin-top: -1rem;
+    color: #fb5004;
+}
+
+.and {
+    font-size: 1rem;
+    background: -webkit-linear-gradient(#FF2626, #753422, #FFD523, #71EFA3, #0F52BA, #66CC66, #FF9966);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.designer {
+    font-size: 30px;
+    font-family: 'Six Caps', sans-serif;
+}
+
+font {
+    font-family: 'Six Caps', sans-serif;
+    letter-spacing: -8px;
+}
+
+.designer-text {
+    letter-spacing: -16px;
+    margin-right: 14px;
+}
+
+.unu,
+.doi,
+.trei,
+.patru,
+.cinci,
+.sase,
+.sapte,
+.opt {
+    transition: 0.1s;
+}
+
+.unu:hover,
+.doi:hover,
+.trei:hover,
+.patru:hover,
+.cinci:hover,
+.sase:hover,
+.sapte:hover,
+.opt:hover {
+    color: #000000;
+    transition: 0.1s;
+}
+
+.title-aside {
+    color: black;
+}
+
+#location {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: -4rem;
+}
+
+
+/* .descriere-aside{
+    border: 1px solid red;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px; */
+
+
+/* grid-gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+} */
+
+
+/* #btn-aside{
+    background-color:#fb5004;
+    border: none;
+    color:white;
+    border-radius: 50px;
+    height: 2rem;
+    font-size: 1rem;
+    width: 10rem;
+    
+} */
+
+
+/* #btn-aside:hover{
+    background-color:#ff7438;
+} */
+
+.title-main {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+main {
+    background-color: #94b1b9;
+    border-radius: 10px;
+}
+
+.cards {
+    border: 2px solid rd;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.card {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    border: 1px solid rd;
+}
+
+.card:hover {
+    backdrop-filter: contrast(70%);
+}
+
+.card img {
+    width: 70%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.title-cards {
+    font-family: 'Pacifico', cursive;
+}
+
+footer {
+    text-align: center;
+    align-items: center;
+}
+
+.contact {
+    font-family: 'Pacifico', cursive;
+}
+
+.details {
+    color: #000000;
+}
+
+#details-span {
+    color: black;
+}
+
+.backto {
+    border: 2px solid #1d1d1d;
+    text-align: center;
+    margin: 5px;
+    width: 60%;
+    text-decoration: none;
+    color: #aaaaaa;
+    text-transform: uppercase;
+    border-radius: 50px;
+    font-size: 20px;
+    transition: transform 0.1s ease, box-shadow;
+    color: black;
+    box-shadow: 0 5px 0;
+    margin-bottom: 20px;
+    background-color: #e8dcca;
+}
+
+.backto:active {
+    box-shadow: 0 0 0 #000000;
+    transform: translateY(5px);
+    background-color: #94b1b9;
+}
+
+#my-photo {
+    width: 15%;
+    border: 1px solid black;
+    display: none;
+}
+
+@media (min-width:768px) {
+    .navbar-header {
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+    .title-header {
+        font-size: 4rem;
+    }
+    .developer-designer {
+        font-size: 12rem;
+    }
+    .designer-text {
+        font-size: 13rem;
+        letter-spacing: -46px;
+    }
+    .and {
+        font-size: 3rem;
+    }
+    .creative-text {
+        font-size: 25px;
+    }
+    a {
+        font-size: 1.5rem;
+        letter-spacing: 3px;
+    }
+    #location {
+        margin-top: -8rem;
+        font-size: 1rem;
+    }
+    .cards {
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+        grid-gap: 1rem;
+    }
+    .card {
+        width: 100%;
+        transition: 0.6s;
+    }
+    .card:hover {
+        backdrop-filter: contrast(70%);
+        transform: scale(0.95);
+        transition: 0.6s;
+    }
+    #my-photo {
+        display: block;
+        border-radius: 500px;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width:1024px) {
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: auto;
+        grid-gap: 1rem;
+    }
+}
